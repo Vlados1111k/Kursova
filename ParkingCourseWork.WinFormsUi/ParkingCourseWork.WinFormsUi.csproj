@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkingCourseWork.Domain\ParkingCourseWork.Domain.csproj" />
+    <ProjectReference Include="..\ParkingCourseWork.Infrastructure\ParkingCourseWork.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
